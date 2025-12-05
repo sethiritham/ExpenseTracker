@@ -1,0 +1,45 @@
+# Folders and files to ignore in Android projects
+
+# Built application files
+/build
+/app/build
+*.apk
+*.aab
+
+# Gradle files
+.gradle/
+/gradle/
+gradle-wrapper.jar
+
+# Local configuration files (IDE-specific)
+.idea/
+*.iml
+local.properties
+
+# Log files
+*.log
+
+# Heap dump files
+*.hprof
+
+# Keystore files
+*.jks
+*.keystore
+
+# Assets folder
+app/src/main/assets/
+!app/src/main/assets/icons/scan.xml
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.zip
+*.rar
+*.7z
+
+# PyTorch models
+*.pt
+*.ptl

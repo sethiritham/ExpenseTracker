@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/appbackground"
+            android:tint="#80000000"
+            android:tintMode="src_over"
+            android:gravity="center" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#40000000" />
+        </shape>
+    </item>
+</layer-list>
